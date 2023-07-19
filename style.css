@@ -1,0 +1,62 @@
+section.banner {
+    padding: var(--padding-desktop);
+    background-image: url("./src/images/banner-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 352px;
+}
+
+.banner__information {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+    gap: 15px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px var(--color-blue);
+}
+
+.banner__subtitle {
+    font-size: 1.3rem;
+}
+
+.button.banner__button {
+    background-color: #2a7ae4;
+    color: white;
+}
+
+@media screen and (max-width:960px) {
+    section.banner {
+        padding: var(--padding-tablet);
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .products__list .products__card:nth-last-child(n+5) {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    section.banner {
+        height: 250px;
+        padding: var(--padding-mobile);
+    }
+
+    .banner__title {
+        font-size: 1.5rem;
+    }
+
+    .banner__subtitle {
+        font-size: 0.9rem;
+    }
+}

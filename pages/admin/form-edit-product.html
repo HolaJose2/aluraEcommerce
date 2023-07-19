@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/components/button.css">
+    <link rel="stylesheet" href="../../src/css/variables.css">
+    <link rel="stylesheet" href="../../src/css/header.css">
+    <link rel="stylesheet" href="../../src/css/main.css">
+    <link rel="stylesheet" href="../../src/css/footer.css">
+    <link rel="stylesheet" href="../../src/components/form-product.css">
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../../src/images/Logo.png" alt="Logo - AluraGeek" class="logo">
+        </a>
+        <form action="#" class="buscador">
+            <input type="search" class="buscador__input" placeholder="¿Qué deseas buscar?">
+            <button type="submit" class="buscador__button"><img src="../../src/images/search.svg" alt="icon-search"
+                    width="16px" height="16px"></button>
+        </form>
+        <div class="menu__right">
+            <a href="./list-products.html" class="button">Menú Admin</a>
+            <img src="../../src/images/search.svg" alt="icon-search" width="16px" height="16px"
+                class="buscador__button--mobile">
+        </div>
+    </header>
+
+    <main>
+        <div class="container__form">
+            <h1>Editar Producto</h1>
+            <div class="alert__error error" data-error>No se permiten campos vacios </div>
+            <form class="form" method="post" data-form>
+                <input type="text" class="form__input" placeholder="Url de imagen" required data-image>
+                <select name="" id="" class="form__input" required data-category>
+                    <option value="">--Categoria--</option>
+                    <option value="Star Wars">Star Wars</option>
+                    <option value="Consolas">Consolas</option>
+                    <option value="Diversos">Diversos</option>
+                </select>
+                <input type="text" class="form__input" placeholder="Nombre del producto" required data-name>
+                <input type="number" class="form__input" placeholder="Precio del producto" required data-price>
+                <textarea type="text" class="form__input" placeholder="Descripcion del producto" required
+                    data-description></textarea>
+
+                <button class="button button__blue" type="submit">Editar producto</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__information">
+                    <div class="footer__image">
+
+                        <img src="../../src/images/Logo.png" alt="Logo - AluraGeek">
+                    </div>
+                    <ul>
+                        <li>Quienes somos</li>
+                        <li>Politica de privacidad</li>
+                        <li>Programa de fidelidad</li>
+                        <li>Nuestras tiendas</li>
+                        <li>Quiero ser franquiciado</li>
+                        <li>Anúncie aquí</li>
+                    </ul>
+                </div>
+                <div class="footer__form">
+                    <h4>Hable con nosotros</h4>
+                    <form action="#">
+                        <input type="text" placeholder="Nombre" class="input__form">
+                        <textarea name="" id="" rows="3" placeholder="Escribe tu mensaje"
+                            class="input__form"></textarea>
+                        <a href="#" class="button button_sendMessage">Enviar mensaje</a>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="author">
+            <p>Desarrollado por José Miguel Garcia | <b class="pseudonimo">MonoDev</b> </p>
+            <p>2023</p>
+        </div>
+    </footer>
+
+
+    <script type="module" src="../../controllers/admin/edit-controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+:root {
+    --padding-desktop: 2rem 5rem;
+    --padding-tablet: 1rem 2rem;
+    --padding-mobile: 1rem;
+    --color-white: white;
+    --color-title-sections: #464646;
+    --font-title-desktop: 2rem;
+    --color-blue: #2A7AE4;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.alert__error{
+    padding: 1rem;
+    display: none;
+}
+
+.error{
+    border-color: red !important;
+    background-color: pink;
+}
+

@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "https://picsum.photos/700/401?random",
+      "category": "Star Wars",
+      "name": "Random 3",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "2",
+      "image": "https://picsum.photos/700/402?random",
+      "category": "Star Wars",
+      "name": "Random 4",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "3",
+      "image": "https://picsum.photos/700/403?random",
+      "category": "Star Wars",
+      "name": "Random 5",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "5",
+      "image": "https://picsum.photos/700/405?random",
+      "category": "Star Wars",
+      "name": "Random 7",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "6",
+      "image": "https://picsum.photos/700/406?random",
+      "category": "Star Wars",
+      "name": "Random 8",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "7",
+      "image": "https://picsum.photos/700/407?random",
+      "category": "Star Wars",
+      "name": "Random 9",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "90768520-b363-402c-8903-67f6814dde4d",
+      "image": "https://picsum.photos/700/408?random",
+      "category": "Star Wars",
+      "name": "Random 1",
+      "price": "15000",
+      "description": "Random 1"
+    },
+    {
+      "id": "2f198207-1799-42f6-b2e7-9f8a9c700640",
+      "image": "https://picsum.photos/710/400?random",
+      "category": "Star Wars",
+      "name": "Random 2",
+      "price": "210",
+      "description": "Random2 description"
+    },
+    {
+      "image": "https://picsum.photos/700/502?random",
+      "category": "Consolas",
+      "name": "Consola 1 EDITADA ",
+      "price": "0000",
+      "description": "Consola 1",
+      "id": "d91062d4-5664-4727-a3c1-230fa92baf9a"
+    },
+    {
+      "image": "https://picsum.photos/701/420?random",
+      "category": "Star Wars",
+      "name": "REFACTORIZANDO CODIGO ",
+      "price": "6666",
+      "description": "REFACTOR",
+      "id": "b37cf78f-2c9c-4c6e-80fe-210b53d893b2"
+    },
+    {
+      "id": "192a2080-27f8-490a-a220-55f6ab2947df",
+      "image": "https://picsum.photos/750/310?random",
+      "category": "Diversos",
+      "name": "Diversos 1 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "10",
+      "image": "https://picsum.photos/750/311?random",
+      "category": "Diversos",
+      "name": "Diversos 2 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "11",
+      "image": "https://picsum.photos/750/312?random",
+      "category": "Diversos",
+      "name": "Diversos 3 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "12",
+      "image": "https://picsum.photos/750/313?random",
+      "category": "Diversos",
+      "name": "Diversos 4 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "13",
+      "image": "https://picsum.photos/750/314?random",
+      "category": "Diversos",
+      "name": "Diversos 5 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "15",
+      "image": "https://picsum.photos/750/315?random",
+      "category": "Diversos",
+      "name": "Diversos 6 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "16",
+      "image": "https://picsum.photos/750/316?random",
+      "category": "Diversos",
+      "name": "Diversos 7 ",
+      "price": "1456112",
+      "description": "Dihajsdhkjashdjasdkjaskdasdas"
+    },
+    {
+      "id": "6fda0a70-02a7-4ebb-a128-ad54ee6d1d89",
+      "image": "https://picsum.photos/745/317?random",
+      "category": "Star Wars",
+      "name": "Star wars 212",
+      "price": "45454",
+      "description": "asdasdas"
+    }
+  ]
+}

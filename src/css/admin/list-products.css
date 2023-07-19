@@ -1,0 +1,41 @@
+.products__card--imagen {
+    position: relative;
+}
+
+.icons__modify {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    padding: .2rem;
+    gap: 1rem;
+}
+
+.icons__modify button{
+    border: 0;
+    background-color: transparent;
+}
+
+.icons__modify button,.icons__modify a{
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 4px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+
+.icon {
+    transition: scale .2s ease-in;
+}
+
+.icon:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px) {}
+
+
+@media screen and (max-width:480px) {}
