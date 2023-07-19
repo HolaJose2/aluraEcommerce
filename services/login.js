@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
         alertLogin.style.display = "none";
 
         setTimeout(() => {
-            window.location.replace("/pages/admin/list-products.html");
+            window.location.replace("/aluraEcommerce/pages/admin/list-products.html");
         }, 1000);
     } else {
         alertLogin.style.display = "block";

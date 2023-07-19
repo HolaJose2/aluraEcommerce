@@ -32,7 +32,7 @@ function sendForm() {
 
             const newProduct = await Services.createProduct(productData);
 
-            window.location.replace("/pages/admin/list-products.html");
+            window.location.replace("/aluraEcommerce/pages/admin/list-products.html");
         } catch (error) {
             console.log("Error:", error);
         }

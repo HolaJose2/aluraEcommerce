@@ -38,16 +38,16 @@
             <h1>Agregar nuevo producto</h1>
             <div class="alert__error error" data-error>No se permiten campos vacios </div>
             <form class="form" method="post" data-form>
-                <input type="text" class="form__input" placeholder="Url de imagen" required data-image>
-                <select name="" id="" class="form__input" required data-category>
+                <input type="text" class="form__input" name="image" placeholder="Url de imagen" required data-image>
+                <select id="" class="form__input" name="category" required data-category>
                     <option value="">--Categoria--</option>
                     <option value="Star Wars">Star Wars</option>
                     <option value="Consolas">Consolas</option>
                     <option value="Diversos">Diversos</option>
                 </select>
-                <input type="text" class="form__input" placeholder="Nombre del producto" required data-name>
-                <input type="number" class="form__input" placeholder="Precio del producto" required data-price>
-                <textarea type="text" class="form__input" placeholder="Descripcion del producto" required
+                <input type="text" class="form__input" name="name" placeholder="Nombre del producto" required data-name>
+                <input type="number" class="form__input" name="price" placeholder="Precio del producto" required data-price>
+                <textarea type="text" class="form__input" name="description" placeholder="Descripcion del producto" required
                     data-description></textarea>
 
                 <button class="button button__blue" type="submit">Agregar producto</button>

@@ -68,7 +68,7 @@ async function appendCardDOM() {
         }
     } catch (error) {
         alert("Error al cargar los detalles del producto: " + error.message);
-        window.location.replace("/");
+        window.location.replace("/aluraEcommerce/");
     }
 }
 

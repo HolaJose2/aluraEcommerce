@@ -9,7 +9,7 @@ export function newCard({ id, image, name, price }) {
           <div class="products__card--details">
              <p>${name}</p>
              <p><b class="products__price">$${price}</b></p>
-             <a href="/pages/details-products.html?id=${id}" class="btn__view">Ver producto</a>
+             <a href="/aluraEcommerce/pages/details-products.html?id=${id}" class="btn__view">Ver producto</a>
           </div>
     `;
 

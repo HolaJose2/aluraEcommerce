@@ -36,7 +36,7 @@ async function getProductDetails() {
         return data;
     } catch (error) {
         alert(error);
-        window.location.replace("/pages/admin/list-products.html");
+        window.location.replace("/aluraEcommerce/pages/admin/list-products.html");
     }
 }
 
@@ -76,7 +76,7 @@ async function submitForm() {
             description: description,
         });
 
-        window.location.replace("/pages/admin/list-products.html");
+        window.location.replace("/aluraEcomerce/pages/admin/list-products.html");
     } catch (error) {
         console.error("Error:", error);
     }
