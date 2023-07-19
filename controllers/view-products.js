@@ -1,4 +1,4 @@
-import { Services } from "../../services/admin-services.js";
+import { Services } from "../services/admin-services.js";
 import { newCard } from "./newCardComponent.js";
 
 const listProductsStarWars = document.querySelector("[data-list-starwars]");
